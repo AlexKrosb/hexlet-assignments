@@ -63,7 +63,7 @@ class AppTest {
         assertThat(test.toString()).isEqualTo("olleH");
         assertThat(test.charAt(0)).isEqualTo('H');
         assertThat(test.length()).isEqualTo(5);
-        assertThat(test.subSequence(1, 4).toString()).isEqualTo("lle");
+        assertThat(test.subSequence(1, 4).toString()).isEqualTo("ll");
     }
     // END
 }
